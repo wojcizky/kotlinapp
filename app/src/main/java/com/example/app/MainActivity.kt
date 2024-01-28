@@ -189,7 +189,7 @@ fun CharacterDetail(detailName: String, detailValue: String) {
 
 fun getImageResource(character: Character): Int {
     return when {
-        character.gender.contains("female") -> R.drawable.female
+        character.gender.contains("female") -> R.drawable.male
         character.gender.contains("male") -> R.drawable.male
         else -> R.drawable.na
     }
